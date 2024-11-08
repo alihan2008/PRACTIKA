@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cyan; 
+    padding: 10px; 
+}
+
+header div {
+    display: flex; 
+    width: 100%; 
+    justify-content: space-between; 
+}
+
+nav {
+    display: flex; 
+    gap: 15px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: black; 
+    padding: 5px; 
+    transition: color 0.3s; 
+}
+
+nav a:hover {
+    color: blue; 
+}
